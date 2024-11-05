@@ -18,11 +18,11 @@
   <nav id="navbar" class="navbar">
     <ul class="sidebar">
       <li onclick=hideSidebar(event) ><a href="#" ><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
-      <li><a href="about">About Us</a></li>
-      <li><a href="events">Events</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#events">Events</a></li>
       <li><a href="hype">Article</a></li>
       <li><a href="#">Gallery</a></li>
-      <li><a href="team">Team</a></li>
+      <li><a href="#team">Team</a></li>
     </ul>
 
     <ul>
@@ -92,7 +92,7 @@
 
 
         <!-- About Us -->
-         <div class="about">
+         <div id="about" class="about">
 
             <div class="about-head">
                 About <a href="#" style="color: #FF9900; text-decoration: none;">US</a>
@@ -127,7 +127,7 @@
 
         <!-- Events -->
 
-        <div class="events">
+        <div id="events"  class="events">
 
             <div class="tedx">
                 <img src="image/Light.svg" alt="Loading...." srcset="">
@@ -159,13 +159,12 @@
 
 
 
-
-         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 <div class="container">
     <div class="slide">
         <!-- Individual slide items -->
-        <div class="item" style="background-image: url(https://i.ibb.co/qCkd9jS/img1.jpg);">
+        <div class="item" style="background-image: url(image/PHOTO-2024-11-05-10-20-03.jpg);">
             <div class="content">
                 <div class="name">Switzerland</div>
                 <div class="des">Lorem ipsum dolor...!</div>
@@ -173,7 +172,7 @@
             </div>
         </div>
 
-        <div class="item" style="background-image: url(https://i.ibb.co/qCkd9jS/img1.jpg);">
+        <div class="item" style="background-image: url(image/PHOTO-2024-11-05-10-23-23.jpg);">
             <div class="content">
                 <div class="name">Switzerland</div>
                 <div class="des">Lorem ipsum dolor...!</div>
@@ -181,7 +180,7 @@
             </div>
         </div>
 
-        <div class="item" style="background-image: url(https://i.ibb.co/qCkd9jS/img1.jpg);">
+        <div class="item" style="background-image: url(image/PHOTO-2024-11-05-10-24-27.jpg);">
             <div class="content">
                 <div class="name">Switzerland</div>
                 <div class="des">Lorem ipsum dolor...!</div>
@@ -196,6 +195,11 @@
         <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
     </div>
 </div>
+
+
+
+
+
 
 
 
@@ -230,7 +234,7 @@
                 Whether you’re looking to pitch your first idea or just explore the entrepreneurial world, HYPE promises an experience filled with fun, learning, and inspiration. Get ready to challenge yourself, connect with future founders, and take your first steps toward becoming a changemaker.
             </p>
 
-            <button class="hype-btn">READ MORE</button>
+            <button class="hype-btn"  onclick="window.location.href='hype.html'">READ MORE</button>
         </div>
 
     </div>
@@ -239,7 +243,7 @@
 
 
            <!-- Our Team -->
-            <div class="team">
+            <div id="team"   class="team">
 
 
                 <div class="about-head">
