@@ -846,18 +846,19 @@ font-weight: 500;
   transform: scale(1.15);
 }
 
-.name, .position {
+.name{
   font-family: sans-serif;
   font-weight: bold;
   font-size: large;
   color: whitesmoke;
 }
 
+
 .position{
   font-family: sans-serif;
   font-weight: 700;
-  font-size: medium;
-  margin-top: 1%;
+  font-size: 20px;
+  margin-top: 3%;
   color: whitesmoke;
 }
 
