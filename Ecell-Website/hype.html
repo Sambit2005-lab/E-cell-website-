@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hype</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  body, html {
+    height: 100%;
+    overflow: auto;
+    scroll-behavior: smooth;
+    background-image: url(image/full\ hype.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+
+
+  .hype{
+    margin-bottom: 50px;
+  }
+
+  .col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4.5%;
+  }
+
+
+  .col1{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 4.5%;
+    
+  }
+
+
+
+  .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+
+
+  .head{
+    color: whitesmoke; 
+    font-weight: 600;
+    font-size: 45px;
+  }
+
+
+  .head1{
+    color: whitesmoke; 
+    font-weight: 600;
+    font-size: 21px;
+  }
+
+
+
+
+
+  
+  .lower-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10%;
+    margin-top: 2%;
+  }
+
+
+
+  .form{
+    border: 2px solid black;
+    padding: 40px 20px 40px 10px;
+    border-radius: 21px;
+    width: 500px;
+    height: 450px;
+  }
+
+
+  .form1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+    
+  }
+
+
+  .form-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+
+
+
+  input {
+    height: 30px;
+    font-size: 16px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 11px;
+    padding-inline-start: 15px;
+    
+}
+
+input::placeholder{
+  color: #FF9900;
+
+}
+
+
+
+.form-group1 textarea {
+  width: 200px  ;        /* Full width */
+  height: 300px;       /* Increase height to allow more text */
+  padding: 10px;       /* Padding for better readability */
+  font-size: 16px;     /* Font size */
+  resize: vertical;    /* Allow vertical resizing, or set to "none" to disable */
+  border-radius: 5px;  /* Optional: rounded corners */
+  border: 1px solid #ccc; /* Border color */
+  color: #333;         /* Text color */
+  background-color: #f9f9f9; /* Background color */
+}
+
+
+
+
+
+  .lower-middle{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 0%;
+    height: 450px ;
+
+    border: 2px solid black;
+    padding: 40px 20px 40px 10px;
+    border-radius: 21px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .btn{
+    border: 2px solid black;
+    border-radius: 11px;
+    padding: 9px;
+    color: #FF9900;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #353535;
+  }
+
+
+  .btn:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+
+
+
+
+
+
+
+  @media(max-width:1430px){
+    .lower-row{
+      gap: 5%;
+    }
+  }
+
+
+  @media(max-width:1215px){
+    .lower-row{
+      gap: 2%;
+    }
+  }
+
+
+  @media(max-width:1190px){
+    .lower-row{
+      flex-direction: column;
+      gap: 20px;
+    }
+    .lower-middle{
+      width: 500px;
+    }
+  }
+
+
+  @media(max-width:840px){
+    .head{
+      font-size: 35px;
+    }
+  }
+
+
+
+  @media(max-width:670px){
+    .head{
+      font-size: 25px;
+    }
+
+
+    .head1{
+      font-size: 14px;
+    }
+  }
+
+  
+
+  @media(max-width:520px){
+   .form{
+    width: 300px;
+   }
+   input{
+    width: auto;
+    font-size: 10px;
+    padding-right: 15px;
+   }
+   .lower-middle{
+    width: 300px;
+   }
+  }
+
+  
+
+        
+    </style>
+</head>
+<body>
+    <section class="hype">
+        <div class="col">
+
+            <div class="row">
+                <div>
+                <p class="head">
+                    TURN YOUR IDEAS TO REALITY 
+                </p>
+                </div>
+
+                <div>
+                        <dotlottie-player src="https://lottie.host/b9e6bac4-d957-4b6c-badc-5197ccbe4aeb/6jQoNG5ZdO.lottie" background="transparent" speed="1" style="width: 100px; height: 200px" direction="1" playMode="normal" loop  autoplay></dotlottie-player>
+    
+                </div>
+
+            </div>
+
+
+            <div class="lower-row">
+
+                <div class="form">
+                    <form action="noaction.php" class="form1">
+
+
+                        <div class="form-col">
+                            <div>
+                                <p class="head1">ENTER NAME</p>
+                            </div>
+                           
+                        <div class="form-group">
+                            <input type="text" name="" placeholder="Enter your Name">
+                        </div>
+
+                        </div>
+                        
+
+
+
+
+                        <div class="form-col">
+
+                            <div>
+                                <p class="head1">ENTER NAME</p>
+                            </div>
+
+                        <div class="form-group">
+                            <input type="text" name="" placeholder="Enter your Name">
+                        </div>
+                        
+                        </div>
+
+
+
+
+
+                        
+                        <div class="form-col">
+
+                            <div>
+                                <p class="head1">ENTER NAME</p>
+                            </div>
+
+                        <div class="form-group">
+                            <input type="text" name="" placeholder="Enter your Name">
+                        </div>
+                        
+                        </div>
+
+
+
+                        
+                        
+                        <div class="form-col">
+                            <div>
+                                <p class="head1">ENTER NAME</p>
+                            </div>
+                        <div class="form-group">
+                            <input type="text" name="" placeholder="Enter your Name">
+                        </div>
+                        
+                        </div>
+                        
+
+                    </form>
+
+                </div>
+
+
+
+                <div class="lower-middle">
+
+                    <div class="form-col">
+                        <div>
+                            <p class="head1">ENTER YOUR IDEA TITLE</p>
+                        </div>
+                    <div class="form-group">
+                        <input type="text" name="" placeholder="Enter your Idea Title">
+                    </div>
+                    
+                    </div>
+                    
+
+
+
+                    <div class="form-col">
+                        <div>
+                            <p class="head1">ENTER YOUR IDEA DESCRIPTION</p>
+                        </div>
+                    <div class="form-group1">
+                        <input type="text" name="" placeholder="Enter your Idea Description">
+                    </div>
+                    
+                    </div>
+                    
+                    
+
+                </div>
+
+
+                <div class="col1">
+                    
+
+                    <div>
+                        <dotlottie-player src="https://lottie.host/4d80e97b-1f34-492c-8947-ff4308c8093d/KNbGh3fteQ.lottie" background="transparent" speed="1" style="width: 240px; height: 150px" direction="1" playMode="normal" loop  autoplay></dotlottie-player>
+    
+                    </div>
+
+                    <div>
+                        <button class="btn">SUBMIT</button>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+        </div>
+
+    </section>
+
+
+
+
+    <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+    
+</body>
+</html>
